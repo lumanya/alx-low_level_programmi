@@ -4,9 +4,8 @@
  *
  * puts -function in c printing string
  *
- * return:always end with 0
+ * Return:Alwys 0 (sucess)
  */
-
 
 int main(void)
 {
