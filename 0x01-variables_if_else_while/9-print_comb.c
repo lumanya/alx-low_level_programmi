@@ -16,8 +16,15 @@ int main(void)
 	{
 
 		putchar(first_digit);
-		putchar(44);
-		putchar(32);
+
+		if (first_digit != 57)
+		{
+
+			putchar(44);
+			putchar(32);
+
+		}
+
 	}
 
 	return (0);
