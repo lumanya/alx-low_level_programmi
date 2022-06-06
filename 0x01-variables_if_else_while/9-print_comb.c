@@ -12,7 +12,7 @@ int main(void)
 
 	int first_digit;
 
-	for ( first_digit = 48; first_digit <= 57; first_digit++)
+	for (first_digit = 48; first_digit <= 57; first_digit++)
 	{
 
 		putchar(first_digit);
@@ -26,6 +26,8 @@ int main(void)
 		}
 
 	}
+
+	putchar(10);
 
 	return (0);
 }
