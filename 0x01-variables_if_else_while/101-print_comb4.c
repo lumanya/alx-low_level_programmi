@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+/**
+ * main -Entry of the program
+ * for -block printing combinations of two digits
+ *
+ * Return: Always 0(sucess)
+ */
+
+int main(void)
+{
+
+	int num1;
+	int tmp1 = 49;
+	int tmp2 = 50;
+	int num3;
+	int num2;
+
+	for (num1 = 48; num1 <= 55; num1++)
+	{
+		num2 = tmp1;
+
+		for  (; num2 <= 56; num2++)
+		{
+			num3 = tmp2;
+			for (; num3 <= 57; num3++)
+			{
+
+				putchar(num1);
+				putchar(num2);
+				putchar(num3);
+
+				if (num1 != 55)
+				{
+					putchar(44);
+					putchar(32);
+				}
+			}
+
+			tmp2++;
+		}
+
+		tmp1++;
+	}
+
+	putchar(10);
+
+	return (0);
+
+
+}
