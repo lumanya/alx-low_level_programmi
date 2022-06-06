@@ -23,7 +23,7 @@ int main(void)
 			putchar(num1);
 			putchar(tmp2);
 
-			if ( num1 != 56)
+			if (num1 != 56)
 			{
 				putchar(44);
 				putchar(32);
