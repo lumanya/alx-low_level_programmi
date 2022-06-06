@@ -4,7 +4,7 @@
  * main - entry point of the program
  * for - block printing single digit number
  *
- * Return - Always 0 (succes)
+ * Return:Always 0(succes)
  */
 
 int main(void)
