@@ -4,7 +4,7 @@
 /**
  * print_alphabets - function that print alphabets ending with new line
  *
- * Description: function print alphabets in ascending order ending with new lin\e
+ * Description: function print alphabets in ascending order ending newline
  *
  * Return: void
  */
