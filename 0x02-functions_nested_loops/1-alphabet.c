@@ -2,10 +2,9 @@
 
 
 /**
- * print_alphabets - functions that uses _putchar function to print lowwercase \
-alhabets
- * Description:  _putchar- function that print character on stdout with char inp\
-ut character
+ * print_alphabets - function that print alphabets ending with new line
+ *
+ * Description: function print alphabets in ascending order ending with new line
  *
  * Return: void
  */
