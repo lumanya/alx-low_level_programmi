@@ -2,7 +2,7 @@
 
 
 /**
- * print_alphabets - function that print alphabets ending with new line
+ * print_alphabet - function that print alphabets ending with new line
  * Description: print alphabets using _putcahr functions
  */
 
