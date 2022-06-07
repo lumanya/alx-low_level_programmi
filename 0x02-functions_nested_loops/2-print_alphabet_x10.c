@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - function that print alphabets in ascending order 10 time
+ * print_alphabet_x10 - function that print alphabets in ascending order 10
+ * time
  */
 
 void print_alphabet_x10(void)
