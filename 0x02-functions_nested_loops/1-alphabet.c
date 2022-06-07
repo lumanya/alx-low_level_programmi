@@ -2,8 +2,12 @@
 
 
 /**
- * print_alphabets - functions that uses _putchar function to print lowwercase \alhabets
- * _putchar- function that print character on stdout with char input character
+ * print_alphabets - functions that uses _putchar function to print lowwercase \
+alhabets
+ * Description:  _putchar- function that print character on stdout with char inp\
+ut character
+ *
+ * Return: void
  */
 
 void print_alphabet(void)
