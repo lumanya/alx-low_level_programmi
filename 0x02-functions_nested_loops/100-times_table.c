@@ -48,7 +48,7 @@ void print_times_table(int n)
 					}
 					_putchar('0' + product);
 				}
-				if (col_number != 0)
+				if (col_number != n)
 				{
 					_putchar(44);
 					_putchar(32);
