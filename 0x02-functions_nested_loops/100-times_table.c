@@ -16,7 +16,7 @@ void print_times_table(int n)
 
 	if (n > 15 || n < 0)
 	{
-	}else
+	} else
 	{
 		for (row_number = 0; row_number <= n; row_number++)
 		{
@@ -30,13 +30,13 @@ void print_times_table(int n)
 					_putchar('0' + (product / 10));
 					_putchar('0' + (product % 10));
 
-				}else if (product > 99)
+				} else if (product > 99)
 				{
 					second_digit = product / 10;
 					_putchar('0' + (product / 100));
 					_putchar('0' + (second_digit % 10));
 					_putchar('0' + (product % 10));
-				}else if (product < 10)
+				} else if (product < 10)
 				{
 					if (col_number != 0)
 					{
