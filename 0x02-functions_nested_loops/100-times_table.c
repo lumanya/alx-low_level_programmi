@@ -48,7 +48,7 @@ void print_times_table(int n)
 					_putchar(32);
 				}
 				if (col_number == n)
-					_printf('\n');
+					_putchar('\n');
 			}
 		}
 	}
