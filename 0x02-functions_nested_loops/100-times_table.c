@@ -4,15 +4,9 @@
  * print_times_table - function that print n times table
  * @n: the number used for computation of times table
  */
-
-
 void print_times_table(int n)
 {
-
-	int product;
-	int col_number;
-	int row_number;
-	int second_digit;
+	int product, col_number, row_number, second_digit;
 
 	if (n > 15 || n < 0)
 	{
