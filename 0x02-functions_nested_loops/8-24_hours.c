@@ -15,11 +15,13 @@ void jack_bauer(void)
 	int h1;
 	int m1;
 	int m2;
+	int limit;
 
 	for (h2 = 0; h2 <= 2; h2++)
 	{
+		limit = (h2 < 2) ? 9: 3;
 
-		for (h1 = 0; h1 <= 3; h1++)
+		for (h1 = 0; h1 <= limit; h1++)
 		{
 
 			for (m2 = 0; m2 <= 5; m2++)
