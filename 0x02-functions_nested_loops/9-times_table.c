@@ -37,7 +37,6 @@ void times_table(void)
 			}
 
 			if (row_number != 9)
-
 			{
 				_putchar(44);
 				_putchar(32);
