@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_times_table - function that print n times table
@@ -48,7 +49,7 @@ void print_times_table(int n)
 					_putchar(32);
 				}
 				if (col_number == n)
-					_putchar('\n');
+					printf('\n');
 			}
 		}
 	}
