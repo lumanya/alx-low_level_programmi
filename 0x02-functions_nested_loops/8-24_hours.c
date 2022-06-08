@@ -19,7 +19,7 @@ void jack_bauer(void)
 
 	for (h2 = 0; h2 <= 2; h2++)
 	{
-		limit = (h2 < 2) ? 9: 3;
+		limit = (h2 < 2) ? 9 : 3;
 
 		for (h1 = 0; h1 <= limit; h1++)
 		{
