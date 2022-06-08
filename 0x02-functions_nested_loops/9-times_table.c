@@ -23,7 +23,7 @@ void times_table(void)
 			{
 				first_digit = product / 10;
 				second_digit = product % 10;
-				_putchar('0'+ first_digit);
+				_putchar('0' + first_digit);
 				_putchar('0' + second_digit);
 			} else
 			{
@@ -47,6 +47,5 @@ void times_table(void)
 				_putchar('\n');
 
 		}
-
 	}
 }
