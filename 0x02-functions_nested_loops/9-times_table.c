@@ -27,8 +27,13 @@ void times_table(void)
 				_putchar('0' + second_digit);
 			} else
 			{
-				_putchar(32);
-				_putchar('0' + product);
+				if (row_number >  0)
+				{
+					_putchar(32);
+					_putchar('0' + product);
+				}
+				else
+					_putchar('0' + product);
 			}
 
 			if (row_number != 9)
