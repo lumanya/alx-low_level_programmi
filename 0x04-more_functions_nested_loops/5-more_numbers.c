@@ -15,14 +15,10 @@ void more_numbers(void)
 		{
 			if (ch > 9)
 			{
-				/* first digit */
+				/* first digit for two digit integer */
 				_putchar('0' + (ch / 10));
-				/* second digit */
-				_putchar('0' + (ch % 10));
-			} else
-			{
-				_putchar('0' + ch);
 			}
+				_putchar('0' + (ch % 10));
 		}
 		_putchar(10);
 	}
