@@ -10,13 +10,15 @@ void print_diagonal(int n)
 
 	int counter;
 	int row_number;
-	int tmp = 1;
+	int tmp = 0;
 
 	if (n <= 0)
 	{
+		_putchar(32);
 		_putchar(36);
 	} else
 	{
+		_putchar(32);
 		for (counter = 1; counter <= n; counter++)
 		{
 			if (counter != n)
