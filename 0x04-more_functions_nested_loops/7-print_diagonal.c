@@ -14,7 +14,6 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		_putchar(36);
 	} else
 	{
 		for (counter = 1; counter <= n; counter++)
@@ -22,7 +21,6 @@ void print_diagonal(int n)
 			if (counter != n)
 			{
 				_putchar(92);
-				_putchar(36);
 				_putchar('\n');
 				row_number = tmp;
 				while (row_number < counter)
@@ -34,7 +32,6 @@ void print_diagonal(int n)
 			if (counter == n)
 			{
 				_putchar(92);
-				_putchar(36);
 			}
 		}
 	}
