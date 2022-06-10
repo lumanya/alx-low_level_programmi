@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (success)
+ */
+
+int main(void)
+{
+	fizzbuzz();
+	return (0);
+
+}
+
+/**
+ * fizzbuzz - function that print integer from 0 to 100.but print Fizz for numb
+ * er multiple of 3 and Buzz for 5 multiples and print FizzBuzz for number boh\
+ * multiple of 3 and 5 followed by new line
+ */
+
+void fizzbuzz(void)
+{
+
+	int counter;
+
+	for (counter = 1; counter <= 100; ++counter)
+	{
+
+		if (counter % 3 == 0)
+			printf("Fizz ");
+		else if (counter % 5 == 0)
+			printf("Buzz ");
+		else if (counter % 5 == 0 && counter % 3 == 0)
+			printf("FizzBuzz ");
+		else
+			printf("%d ", counter);
+
+	}
+	printf("\n");
+}
