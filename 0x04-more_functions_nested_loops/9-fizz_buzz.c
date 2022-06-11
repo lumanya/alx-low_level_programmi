@@ -29,11 +29,26 @@ void fizzbuzz(void)
 	{
 
 		if (counter % 3 == 0 && counter % 5 == 0)
-			printf("FizzBuzz ");
+		{
+			if (counter != 100)
+				printf("FizzBuzz ");
+			else
+				printf("FizzBuzz");
+		}
 		else if (counter % 5 == 0)
-			printf("Buzz ");
+		{
+			if (counter != 100)
+				printf("Buzz ");
+			else
+				printf("Buzz");
+		}
 		else if (counter % 3 == 0)
-			printf("Fizz ");
+		{
+			if (counter != 100)
+				printf("Fizz ");
+			else
+				printf("Fizz");
+		}
 		else
 			printf("%d ", counter);
 
