@@ -1,1 +1,1 @@
-C-pointers , array and string
+alx-project on pointer and array in c
