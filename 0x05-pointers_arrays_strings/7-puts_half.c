@@ -20,7 +20,7 @@ void puts_half(char *str)
 	if (len % 2 == 0)
 	{
 		n = len / 2 - 1;
-		for (i = 0; i <= len / 2; ++i)
+		for (i = 1; i <= len / 2; ++i)
 		{
 
 			_putchar(*(str - n));
@@ -30,7 +30,7 @@ void puts_half(char *str)
 	else if (len % 2 != 0)
 	{
 		n = (len - 1) / 2 - 1;
-		for (i = 0; i <= (len / 2 - 1); ++i)
+		for (i = 1; i <= (len / 2 - 1); ++i)
 		{
 			_putchar(*(str - n));
 			--n;
