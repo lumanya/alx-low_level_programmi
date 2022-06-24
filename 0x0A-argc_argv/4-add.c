@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 			if (atoi(argv[count]) == 0 && *argv[count] != 48)
 			{
 				printf("Error\n");
-				return (1);
+				return (2);
 			}
 			else if (atoi(argv[count]) > 0)
 			{
