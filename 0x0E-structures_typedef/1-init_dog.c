@@ -2,7 +2,7 @@
 /**
  * init_dog - initializes a vraible of type struct
  * @d: pointer to struct dog
- * @name; name of dog
+ * @name: name of dog
  * @age: age of dog
  * @owner: owner of a dog
  */
