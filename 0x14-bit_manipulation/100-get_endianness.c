@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * get_endianness - check if multibyte date is stored as little or big endian
- *: Return: first value store, if 0 big endian, 1if little endian
+ *
+ * Return: first value store, if 0 big endian, 1if little endian
  */
 int get_endianness(void)
 {
@@ -13,6 +14,6 @@ int get_endianness(void)
 	int n = 0x00000001;
 	char *c = (char *)&n;
 
-	return(c[0]);
+	return (c[0]);
 
 }
