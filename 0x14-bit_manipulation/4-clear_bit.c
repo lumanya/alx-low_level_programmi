@@ -8,17 +8,13 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int mask = 0;
+	unsigned long int mask = 1;
 	unsigned int max_bits;
 
 	max_bits = (sizeof(unsigned long int) * 8);
 	if (index > max_bits)
 		return (-1);
-	mask = 1 << index;
-	*n = ~mask & *n;
-	if ((*n >> index) == 0)
-		return (1);
-	else
-		return (-1);
-
+	mask = ~(mask << index);
+	*n = (mask & *n);
+	return (1);
 }
