@@ -1,0 +1,8 @@
+# Usage
+# make create binary files
+.PHONY = all, clean
+CC = gcc # the complier to be used
+SRC = main.c school.c  # the .c files
+
+all: $(SRC)
+	${CC} ${SRC} -o school
